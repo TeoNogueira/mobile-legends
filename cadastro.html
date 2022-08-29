@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/styles/custom.css">
+    <link rel="stylesheet" href="./bootstrap/styles/custom-form.css">
+    <link rel="stylesheet" href="./awesome/fontawesome/css/all.min.css">
+    
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <header class="" id="home">
+        <nav class="fixed-top navbar-light bg-dark">
+    <div class="container">
+    
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 col-sm-3">
+    
+                <a href="" class="nav-link text-light user-select-none logo-legends" id="nameInitial ">Mobile legends</a>
+            </div>
+            <br><br><br><br>    
+    
+            <div class="lista_cont col-md-6 col-sm-9">
+    
+                <ul class="nav justify-content-end ">
+                    <li class="nav-item"><a class="nav-link text-light" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="./index.html#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="./index.html#buy">Skins</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="./index.html#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </nav>
+    </header>
+
+<!-- header Hamb -->
+
+<!--Navbar-->
+<header id="nonenone">
+    <nav class="fixed-top navbar-light bg-secondary d-flex pt-5" >
+    
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#"></a>
+      
+        <!-- Collapse button -->
+        <button class="navbar-toggler toggler-example purple darken-6 bottomM" type="button" data-toggle="collapse"
+          data-target="#navTarget" aria-controls="navTarget" aria-expanded="false"
+          aria-label="Toggle navigation"><span class="white-text"><i class="fas fa-bars fa-1x"></i></span></button>
+      
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navTarget">
+      
+          <!-- Links -->
+          <div class="lista_cont col-md-10 col-sm-2 justify-content-between">
+    
+            <ul class="nav justify-content-end ">
+                <li class="nav-item"><a class="nav-link text-light" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="./index.html#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="./index.html#buy">Skins</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="./index.html#contato">Contato</a></li>
+            </ul>
+        </div>
+          <!-- Links -->
+      
+        </div>
+        <!-- Collapsible content -->
+      
+      </nav>
+    </header>
+      <!--/.Navbar-->
+    <!-- header hamb end -->
+
+
+    <section id="cadastro">
+        <div class="container">
+
+            <div class="row py-5 mt-top">
+                <div class="col-md-12 col-sm-12">
+                    <h2>Registre-se</h2>
+                    <p>
+                        Inscreva-se já para saber mais sobre atualizações e itens da loja.</p>
+                </div>
+            </div>
+
+            <form class="form">
+
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="Digite o seu nome" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="Digite o seu email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row py-3">
+                    <div class="col">
+                        <label for="endereco" class="col-form-label col-form-label-sm">Endereço</label>
+                        <input type="text" id="endereco" class="form-control" placeholder="Endereço" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="cidade" class="col-form-label col-form-label-sm">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" class="form-control" required>
+                    </div>
+                    <div class="col">
+                        <label for="estado" class="col-form-label col-form-label-sm">Estado</label>
+                        <select name="estado" id="estado" class="form-control">
+                            <option value="">Selecione o seu Estado</option>
+                            <option value="sp">SP</option>
+                            <option value="al">AL</option>
+                            <option value="mg">MG</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="cep" class="col-form-label col-form-label-sm">CEP</label>
+                        <input type="text" name="cep" id="cep" class="form-control" required>
+                    </div>
+                </div> 
+                <!-- final cidade, estado, cep end-->
+
+
+                <div class="row">
+                    <div class="col">
+                        <label for="bairro" class="col-form-label col-form-label-sm">Bairro</label>
+                        <input type="text" name="bairro" id="bairro" class="form-control" required>
+                    </div>
+                    <div class="col">
+                        <label for="complemento" class="col-form-label col-form-label-sm">Complemento</label>
+                        <select name="complemento" id="estado" class="form-control">
+                            <option value="">Selecione o seu Complemento</option>
+                            <option value="a">A</option>
+                            <option value="b">B</option>
+                            <option value="c">D</option>
+                            <option value="c">E</option>
+                            <option value="c">F</option>
+                            <option value="c">G</option>
+                            <option value="c">H</option>
+                            <option value="c">I</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="telefone" class="col-form-label col-form-label-sm">Telefone</label>
+                        <input type="text" name="telefone" id="telefone" class="form-control" required>
+                    </div>
+                </div> 
+
+
+            <!-- bairro complemento e telefone -->
+
+
+                <div class="row py-5">
+                    <div class="col">
+                        Info
+                        <div class="input-group">
+                            <label for="info" class="col-form-label col-form-label-sm"></label>
+                            <textarea class="form-control " name="informacoes" id="info" rows="5" required></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" name="promocionais" id="promocionais">
+                            <label for="promocionais" class="form-check-label col-form-label-sm">Eu desejo receber mensagens promocionais</label>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-lg btn-success">Registrar agora </button>
+
+            </form>
+
+            <p> <a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">register now</a> to receive news</p>
+
+        </div> <!-- end .container -->
+    </section>
+
+
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">subscribe me to the list</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>
+                        Fill in the fields to receive news and promotions</h6>
+
+                    <form class="form-inline">
+                        <div class="row">
+                            <div class="form-group col-4">
+                                <input type="text" class="form-control form-control-sm mb-2" name="nome"
+                                    placeholder="name" required>
+                            </div>
+                            <div class="form-group col-4">
+                                <input type="text" class="form-control form-control-sm mb-2" name="e-mail"
+                                    placeholder="e-mail" required>
+                            </div>
+                            <div class="form-group col-4">
+                                <button type="submit" class="btn btn-sm btn-success">Receive news</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary mb-2" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+        <!-- FOOTER -->
+
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+          
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              <p class="text-white align-items-center">@TeoNogueira</p>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+
+
+
+        <!-- FOOTER END -->
+
+ <script src="./node_modules/jquery/dist/jquery.js"></script>
+
+
+
+ <script src="./bootstrap/js/alternative.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

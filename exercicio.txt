@@ -1,0 +1,6 @@
+incluir o carousel na home antes do sobre
+
+completar cadastro tornando os campos obrigatórios
+
+incluir campos: bairro, complemento e telefone.
+

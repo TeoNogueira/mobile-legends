@@ -1,0 +1,354 @@
+* {
+
+    box-sizing: border-box;
+}
+
+
+header {
+
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bottomM {
+    margin-bottom: 35px;
+}
+
+.efTransition {
+
+   transition: 1.2s;
+}
+
+.normal {
+
+}
+
+.flexdisplay {
+   float: left;
+}
+
+.section {
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+/*  */
+.btn-purple {
+
+    background-color: #464374;
+    color: #fff
+}
+.btn-purple:hover {
+    color: #fff;
+    opacity: 0.9;
+}
+
+/* POPUP */
+
+section#sobre img {
+
+border-radius: 15px;
+
+} 
+
+.popDis {
+
+    display: none;
+}
+
+.popUp {
+    top: 20%;
+    left: 40%;
+    
+    z-index: 19;
+    display: block;
+    clear: both;
+    position: fixed;
+    flex-direction: center;
+   
+    width: 250px;
+    height: 250px;
+    background: #545e57;
+    
+    }
+
+    .popColumn {
+
+        display: flex;
+        width: 100%;
+       flex-direction: column;
+        align-items: center;
+    }
+  .popPara {
+      user-select: none;
+      padding-top: 30px;
+      width: 100%;
+        text-align: center;
+        height: 80%;
+        color:#fff;
+    }
+
+    /* botao */
+
+    #botao {
+        margin: 26px 0 0 12px;;
+    }
+    .popUp button {
+       
+        margin: 10px;
+        width: 90px;
+        height: 40px;
+        border: none;
+        
+    }
+
+ .greenStart:hover {
+
+    color: #fff;
+    background: #16c24a;
+ }
+
+
+/*  */
+
+
+.input, textarea {
+
+    margin-bottom: 1rem;
+}
+
+section#container
+
+
+.card {
+
+width: 32%;
+float: left;
+
+}
+
+header{
+
+    display: flex !important;
+    align-items: center !important;
+}
+
+.bord_space {
+     opacity: 0.4;
+    display: flex;
+    border: 1px solid rgb(207, 207, 197);
+    max-width: 1110px;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.spaceTopBottom {
+
+    margin: 10px 0 14px;
+
+
+}
+
+
+/* cards */
+
+.cardrefe {
+
+text-decoration: none;
+color: rgb(26, 26, 37)
+
+}
+
+.cardrefe:hover {
+
+    color: rgb(32, 37, 37);
+    opacity: 0.9;
+
+}
+
+
+header#nonenone {
+
+    display: none !important;
+}
+
+
+
+
+
+/* MEDIAS */
+
+@media (max-width: 767px) {
+
+    section#sobre a {
+
+        margin-bottom: 12px;
+    
+    }
+
+
+header {
+    position: relative ;
+    z-index: 5;
+    opacity: 0.6;
+    
+}
+
+
+#buttonhome {
+
+    margin-bottom: 12px;
+}
+
+
+
+}
+
+
+
+
+
+@media (max-width: 991px) {
+
+    .spaceTopBottom {
+
+        margin: 10px 0 14px;
+
+
+    }
+
+
+    
+     
+
+    header {
+        position: relative ;
+        z-index: 5;
+        opacity: 0.6;
+      
+        
+    }
+   /* #listHeader {
+        display: none !important;
+    }
+ #nameInitial {
+    display: none !important;
+    
+ } */
+
+}
+
+
+/* NAV MEDIA*/
+
+@media (max-width: 1224px) {
+
+#listHeader {
+    position: relative;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header#home {
+
+    display: none !important;
+}
+
+header#nonenone {
+
+    display: flex !important;
+}
+
+
+}
+
+
+/*  */
+
+.ml-1 {
+    margin-left: 7px !important;
+  }
+
+  .mt-top {
+    margin-top: 50px !important;
+  }
+
+.m-persona {
+
+    margin: 12px 0px !important;
+}
+
+
+
+/* MEDIA POPUP */
+
+@media (max-width: 768px) {
+
+
+.popUp {
+
+position: fixed !important;
+left: 33%;
+    
+}
+
+
+}
+
+
+
+@media (max-width: 425px) {
+
+
+    .popUp {
+    
+    position: fixed !important;
+    left: 20%;
+        
+    }
+    
+    
+    }
+
+    /* fonts */
+
+
+    h2 {
+
+        font-family: 'Roboto Mono', monospace !important;
+        font-size: 35px;
+    }
+
+
+    ul li a {
+
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+    }
+
+    p {
+
+        
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+
+    }
+
+    .logo-legends {
+
+        
+        font-family: 'Roboto Mono', monospace !important;
+        font-size: 25px;
+        width: 100%;
+        display: flex;
+
+    }
